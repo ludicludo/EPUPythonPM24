@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XML Spy v4.3 U (http://www.xmlspy.com) by Michael Foertsch (Siemens AG) -->
+<Function xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../XSD/ServxmlFunction.xsd" Function_Name="Quality_Daily_Homogeneity" CT_Serv_XSD_Version="110">
+	<DataGroup Group_Name="ID_APPLICATION_INFORMATION" DateTime="2019-08-28T09:35:04">
+		<DataPackage Package_Name="ID_COMMON">
+			<DataElement Element_Name="ID_RESULT">
+				<DataSeries Series_Name="">
+					<SeriesEntry Series_ID="ID_TESTER_NAME">
+						<DataEntry Variable_Name="ID_TESTER_NAME">
+							<StringVariable String_Value="IRCNA"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_PRODUCT_NAME">
+						<DataEntry Variable_Name="ID_PRODUCT_NAME">
+							<StringVariable String_Value="Biograph64"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_SOFTWARE_VERSION">
+						<DataEntry Variable_Name="ID_SOFTWARE_VERSION">
+							<StringVariable String_Value="VG76A"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_SERIAL_NUMBER">
+						<DataEntry Variable_Name="ID_SERIAL_NUMBER">
+							<StringVariable String_Value="10005"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_INSTALL_HAND_OVER">
+						<DataEntry Variable_Name="ID_INSTALL_HAND_OVER">
+							<StringVariable String_Value="2019-08-13"/>
+						</DataEntry>
+					</SeriesEntry>
+				</DataSeries>
+				<DataSeries Series_Name="">
+					<SeriesEntry Series_ID="ID_CUSTOMER_NAME">
+						<DataEntry Variable_Name="ID_CUSTOMER_NAME">
+							<StringVariable String_Value="IRCNA"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_CUSTOMER_ID">
+						<DataEntry Variable_Name="ID_CUSTOMER_ID">
+							<StringVariable String_Value="Id"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_HOSPITAL_NAME">
+						<DataEntry Variable_Name="ID_HOSPITAL_NAME">
+							<StringVariable String_Value="IRCNA"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_STREET">
+						<DataEntry Variable_Name="ID_STREET">
+							<StringVariable String_Value="BD Professeur Jqaues Monod StreetNo"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_ZIP_CODE">
+						<DataEntry Variable_Name="ID_ZIP_CODE">
+							<StringVariable String_Value="44800"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_CITY">
+						<DataEntry Variable_Name="ID_CITY">
+							<StringVariable String_Value="Saint Herblain"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_DISTRICT">
+						<DataEntry Variable_Name="ID_DISTRICT">
+							<StringVariable String_Value="District"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_COUNTRY">
+						<DataEntry Variable_Name="ID_COUNTRY">
+							<StringVariable String_Value="FR"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_CUSTOMER_PHONE_NO">
+						<DataEntry Variable_Name="ID_CUSTOMER_PHONE_NO">
+							<StringVariable String_Value="Phone"/>
+						</DataEntry>
+					</SeriesEntry>
+				</DataSeries>
+				<DataArray Array_Name="">
+					<DataSeries Series_Name="ID_SERIAL_NUMBER">
+						<SeriesEntry Series_ID="ID_GANTRY">
+							<DataEntry Variable_Name="ID_GANTRY">
+								<StringVariable String_Value="2355"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_DMS_A">
+							<DataEntry Variable_Name="ID_DMS_A">
+								<StringVariable String_Value="21657"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_DMS_B">
+							<DataEntry Variable_Name="ID_DMS_B">
+								<StringVariable String_Value="-"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_PHS">
+							<DataEntry Variable_Name="ID_PHS">
+								<StringVariable String_Value="n.a."/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_TUBE_A_ASSEMBLY">
+							<DataEntry Variable_Name="ID_TUBE_A_ASSEMBLY">
+								<StringVariable String_Value="653241974"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_TUBE_B_ASSEMBLY">
+							<DataEntry Variable_Name="ID_TUBE_B_ASSEMBLY">
+								<StringVariable String_Value="-"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_TUBE_A_COLLIMATOR">
+							<DataEntry Variable_Name="ID_TUBE_A_COLLIMATOR">
+								<StringVariable String_Value="8382"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_TUBE_B_COLLIMATOR">
+							<DataEntry Variable_Name="ID_TUBE_B_COLLIMATOR">
+								<StringVariable String_Value="-"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_GENERATOR_A_ELECTRONIC">
+							<DataEntry Variable_Name="ID_GENERATOR_A_ELECTRONIC">
+								<StringVariable String_Value="14175"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_GENERATOR_B_ELECTRONIC">
+							<DataEntry Variable_Name="ID_GENERATOR_B_ELECTRONIC">
+								<StringVariable String_Value="-"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_HV_TANK_A">
+							<DataEntry Variable_Name="ID_HV_TANK_A">
+								<StringVariable String_Value="13949"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_HV_TANK_B">
+							<DataEntry Variable_Name="ID_HV_TANK_B">
+								<StringVariable String_Value="-"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+					<DataSeries Series_Name="ID_REVISION_LEVEL">
+						<SeriesEntry Series_ID="ID_GANTRY">
+							<DataEntry Variable_Name="ID_GANTRY">
+								<StringVariable String_Value="00"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_DMS_A">
+							<DataEntry Variable_Name="ID_DMS_A">
+								<StringVariable String_Value="05"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_DMS_B">
+							<DataEntry Variable_Name="ID_DMS_B">
+								<StringVariable String_Value="-"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_PHS">
+							<DataEntry Variable_Name="ID_PHS">
+								<StringVariable String_Value="n.a."/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_TUBE_A_ASSEMBLY">
+							<DataEntry Variable_Name="ID_TUBE_A_ASSEMBLY">
+								<StringVariable String_Value="00006"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_TUBE_B_ASSEMBLY">
+							<DataEntry Variable_Name="ID_TUBE_B_ASSEMBLY">
+								<StringVariable String_Value="-"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_TUBE_A_COLLIMATOR">
+							<DataEntry Variable_Name="ID_TUBE_A_COLLIMATOR">
+								<StringVariable String_Value="04"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_TUBE_B_COLLIMATOR">
+							<DataEntry Variable_Name="ID_TUBE_B_COLLIMATOR">
+								<StringVariable String_Value="-"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_GENERATOR_A_ELECTRONIC">
+							<DataEntry Variable_Name="ID_GENERATOR_A_ELECTRONIC">
+								<StringVariable String_Value="04"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_GENERATOR_B_ELECTRONIC">
+							<DataEntry Variable_Name="ID_GENERATOR_B_ELECTRONIC">
+								<StringVariable String_Value="-"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_HV_TANK_A">
+							<DataEntry Variable_Name="ID_HV_TANK_A">
+								<StringVariable String_Value="04"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_HV_TANK_B">
+							<DataEntry Variable_Name="ID_HV_TANK_B">
+								<StringVariable String_Value="-"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+				</DataArray>
+			</DataElement>
+		</DataPackage>
+	</DataGroup>
+	<DataGroup Group_Name="ID_GROUP" DateTime="2019-08-28T09:35:04">
+		<DataPackage Package_Name="ID_COMMON">
+			<DataElement Element_Name="ID_PARAMS">
+				<DataArray Array_Name="ID_FUNCTION_DESCR">
+					<DataSeries Series_Name="">
+						<SeriesEntry Series_ID="ID_FUNCTION_DESCR">
+							<DataEntry Variable_Name="ID_FUNCTION_DESCR">
+								<StringVariable String_Value="ID_HOMOGENEITY_DAY_P46C64"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+				</DataArray>
+				<DataSeries Series_Name="ID_PARAMS">
+					<SeriesEntry Series_ID="ID_VOLT">
+						<DataEntry Variable_Name="ID_VOLT" Variable_Unit="kV">
+							<LongVariable Long_Value="120"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_UHR">
+						<DataEntry Variable_Name="ID_UHR">
+							<BoolVariable Bool_Value="NO"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_SHAPED_FILTER">
+						<DataEntry Variable_Name="ID_SHAPED_FILTER">
+							<StringVariable String_Value="ID_WIDE"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_WINDOW_WIDTH">
+						<DataEntry Variable_Name="ID_WINDOW_WIDTH" Variable_Unit="HU">
+							<LongVariable Long_Value="500"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_WINDOW_CENTER">
+						<DataEntry Variable_Name="ID_WINDOW_CENTER" Variable_Unit="HU">
+							<LongVariable Long_Value="0"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_FOV">
+						<DataEntry Variable_Name="ID_FOV" Variable_Unit="mm">
+							<LongVariable Long_Value="250"/>
+						</DataEntry>
+					</SeriesEntry>
+				</DataSeries>
+			</DataElement>
+		</DataPackage>
+		<DataPackage Package_Name="ID_MODE">
+			<DataElement Element_Name="ID_MODE_DESCR_TEXT">
+				<DataEntry Variable_Name="ID_MODE_DESCR_TEXT">
+					<StringVariable String_Value="ID_MODE_REPORT_TEXT_P46_TYPICAL_BODY"/>
+				</DataEntry>
+			</DataElement>
+			<DataElement Element_Name="ID_USED_SYSTEM">
+				<DataEntry Variable_Name="ID_USED_SYSTEM">
+					<StringVariable String_Value="ID_SYSTEM_A"/>
+				</DataEntry>
+			</DataElement>
+			<DataElement Element_Name="ID_PARAMS">
+				<DataArray Array_Name="ID_PARAMS">
+					<DataSeries Series_Name="ID_SYSTEM_A">
+						<SeriesEntry Series_ID="ID_SCAN_TYPE">
+							<DataEntry Variable_Name="ID_SCAN_TYPE">
+								<StringVariable String_Value="ID_SEQUENCE"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_CURRENT">
+							<DataEntry Variable_Name="ID_CURRENT" Variable_Unit="mA">
+								<LongVariable Long_Value="420"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_SLICE_EFFECTIVE">
+							<DataEntry Variable_Name="ID_SLICE_EFFECTIVE" Variable_Unit="mm">
+								<DoubleVariable Double_Value="5.0"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_SLICES_PER_SCAN">
+							<DataEntry Variable_Name="ID_SLICES_PER_SCAN">
+								<LongVariable Long_Value="3"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_PHYS_COLL">
+							<DataEntry Variable_Name="ID_PHYS_COLL" Variable_Unit="mm">
+								<StringVariable String_Value="32x0.6"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_SCANTIME">
+							<DataEntry Variable_Name="ID_SCANTIME" Variable_Unit="s">
+								<DoubleVariable Double_Value="0.5"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROT_TIME">
+							<DataEntry Variable_Name="ID_ROT_TIME" Variable_Unit="s">
+								<DoubleVariable Double_Value="0.5"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_BODYREGION">
+							<DataEntry Variable_Name="ID_BODYREGION">
+								<StringVariable String_Value="ID_BODY"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_KERNEL">
+							<DataEntry Variable_Name="ID_KERNEL">
+								<StringVariable String_Value="S80f"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+				</DataArray>
+				<DataSeries Series_Name="ID_RAD_ROIS">
+					<SeriesEntry Series_ID="ID_RAD_CENTRAL_ROI">
+						<DataEntry Variable_Name="ID_RAD_CENTRAL_ROI" Variable_Unit="mm">
+							<DoubleVariable Double_Value="10.00"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_RAD_PERIPH_ROI">
+						<DataEntry Variable_Name="ID_RAD_PERIPH_ROI" Variable_Unit="mm">
+							<DoubleVariable Double_Value="10.00"/>
+						</DataEntry>
+					</SeriesEntry>
+				</DataSeries>
+			</DataElement>
+			<DataElement Element_Name="ID_RESULT">
+				<DataArray Array_Name="ID_WATER_VAL">
+					<DataSeries Series_Name="ID_WATER_VAL_SYS_A">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-2.17"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-1.66"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-1.33"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+				</DataArray>
+				<DataArray Array_Name="ID_RESULT_SYSTEM_A">
+					<DataSeries Series_Name="ID_CENTER">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-2.17"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-1.66"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-1.33"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+					<DataSeries Series_Name="ID_DIFF3">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="1.46"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.72"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.07"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+					<DataSeries Series_Name="ID_DIFF6">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="1.49"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.77"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.29"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+					<DataSeries Series_Name="ID_DIFF9">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="1.32"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.44"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.09"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+					<DataSeries Series_Name="ID_DIFF12">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="1.16"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.60"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.13"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+				</DataArray>
+			</DataElement>
+		</DataPackage>
+		<DataPackage Package_Name="ID_MODE">
+			<DataElement Element_Name="ID_MODE_DESCR_TEXT">
+				<DataEntry Variable_Name="ID_MODE_DESCR_TEXT">
+					<StringVariable String_Value="ID_MODE_REPORT_TEXT_P46_TYPICAL_HEAD"/>
+				</DataEntry>
+			</DataElement>
+			<DataElement Element_Name="ID_USED_SYSTEM">
+				<DataEntry Variable_Name="ID_USED_SYSTEM">
+					<StringVariable String_Value="ID_SYSTEM_A"/>
+				</DataEntry>
+			</DataElement>
+			<DataElement Element_Name="ID_PARAMS">
+				<DataArray Array_Name="ID_PARAMS">
+					<DataSeries Series_Name="ID_SYSTEM_A">
+						<SeriesEntry Series_ID="ID_SCAN_TYPE">
+							<DataEntry Variable_Name="ID_SCAN_TYPE">
+								<StringVariable String_Value="ID_ROT"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_CURRENT">
+							<DataEntry Variable_Name="ID_CURRENT" Variable_Unit="mA">
+								<LongVariable Long_Value="350"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_SLICE_EFFECTIVE">
+							<DataEntry Variable_Name="ID_SLICE_EFFECTIVE" Variable_Unit="mm">
+								<DoubleVariable Double_Value="4.8"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_SLICES_PER_SCAN">
+							<DataEntry Variable_Name="ID_SLICES_PER_SCAN">
+								<LongVariable Long_Value="3"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_PHYS_COLL">
+							<DataEntry Variable_Name="ID_PHYS_COLL" Variable_Unit="mm">
+								<StringVariable String_Value="12x1.2"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_SCANTIME">
+							<DataEntry Variable_Name="ID_SCANTIME" Variable_Unit="s">
+								<DoubleVariable Double_Value="1.0"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROT_TIME">
+							<DataEntry Variable_Name="ID_ROT_TIME" Variable_Unit="s">
+								<DoubleVariable Double_Value="1.0"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_BODYREGION">
+							<DataEntry Variable_Name="ID_BODYREGION">
+								<StringVariable String_Value="ID_HEAD"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_KERNEL">
+							<DataEntry Variable_Name="ID_KERNEL">
+								<StringVariable String_Value="S80s"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+				</DataArray>
+				<DataSeries Series_Name="ID_RAD_ROIS">
+					<SeriesEntry Series_ID="ID_RAD_CENTRAL_ROI">
+						<DataEntry Variable_Name="ID_RAD_CENTRAL_ROI" Variable_Unit="mm">
+							<DoubleVariable Double_Value="10.00"/>
+						</DataEntry>
+					</SeriesEntry>
+					<SeriesEntry Series_ID="ID_RAD_PERIPH_ROI">
+						<DataEntry Variable_Name="ID_RAD_PERIPH_ROI" Variable_Unit="mm">
+							<DoubleVariable Double_Value="10.00"/>
+						</DataEntry>
+					</SeriesEntry>
+				</DataSeries>
+			</DataElement>
+			<DataElement Element_Name="ID_RESULT">
+				<DataArray Array_Name="ID_WATER_VAL">
+					<DataSeries Series_Name="ID_WATER_VAL_SYS_A">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-1.66"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-1.40"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-1.19"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+				</DataArray>
+				<DataArray Array_Name="ID_RESULT_SYSTEM_A">
+					<DataSeries Series_Name="ID_CENTER">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-1.66"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-1.40"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="-1.19"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+					<DataSeries Series_Name="ID_DIFF3">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="1.05"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.68"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.11"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+					<DataSeries Series_Name="ID_DIFF6">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.92"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.90"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.23"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+					<DataSeries Series_Name="ID_DIFF9">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.79"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.51"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.34"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+					<DataSeries Series_Name="ID_DIFF12">
+						<SeriesSpec>
+							<DataEntry Variable_Name="ID_REQ_RANGE" Variable_Unit="HU">
+								<DoubleVariable Low_Specification="-4.00" High_Specification="4.00" Double_Value=""/>
+							</DataEntry>
+						</SeriesSpec>
+						<SeriesEntry Series_ID="ID_ROW_N1">
+							<DataEntry Variable_Name="ID_ROW_N1" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.93"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N2">
+							<DataEntry Variable_Name="ID_ROW_N2" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.72"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="ID_ROW_N3">
+							<DataEntry Variable_Name="ID_ROW_N3" Variable_Unit="HU" Variable_In_Spec="INTOL">
+								<DoubleVariable Double_Value="0.29"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+				</DataArray>
+			</DataElement>
+		</DataPackage>
+	</DataGroup>
+	<DataGroup Group_Name="ID_SCROLLLIST" DateTime="2019-08-28T09:35:06">
+		<DataPackage Package_Name="ID_SCROLLLIST">
+			<DataElement Element_Name="ID_SCROLLLIST">
+				<DataArray Array_Name="ID_SCROLLLIST">
+					<DataSeries Series_Name="Text">
+						<SeriesEntry Series_ID="Msg0">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:34:35.962 Function \&quot;Quality Homogeneity\&quot; started.&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg1">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:34:35.982 Preparing scan ...&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg2">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:34:37.737 Cleaning up database...&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg3">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:34:38.354 Loading mode with 120 kV, 420 mA, 0.5 s, W1, focus small - 5.0 mm (2x32x0.6 mm) (A)&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg4">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:34:41.427 Scanning ...&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg5">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:34:42.507 Starting reconstruction&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg6">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:34:45.002 Scan successfully completed.&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg7">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:34:45.002 Evaluating results ...&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg8">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:34:45.417 Preparing scan ...&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg9">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:34:45.517 Loading mode with 120 kV, 350 mA, 1 s, W1, focus small - 3x4.8 mm (A)&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg10">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:35:01.972 Scanning ...&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg11">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:35:04.447 Scan successfully completed.&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg12">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:35:04.447 Evaluating results ...&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg13">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:35:04.827 Saving results ...&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg14">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:35:04.847 Results successfully saved.&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg15">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:35:04.847 Moving table back to the position of function start ...&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg16">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:35:04.864 Homogeneity / Water: Results in tolerance.&lt;BR&gt;&quot;, 5, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg17">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:35:04.867 Creating XML-report...&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg18">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:35:04.932 Creation of XML-report succeeded.&lt;BR&gt;&quot;, 2, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+						<SeriesEntry Series_ID="Msg19">
+							<DataEntry Variable_Name="Text">
+								<StringVariable String_Value="scrollListAddItem(&quot;2019-08-28 09:35:06.399 Function \&quot;Quality Homogeneity\&quot; completed.&lt;BR&gt;&quot;, 5, false);&#xA;"/>
+							</DataEntry>
+						</SeriesEntry>
+					</DataSeries>
+				</DataArray>
+			</DataElement>
+		</DataPackage>
+	</DataGroup>
+	<DataGroup Group_Name="ID_FCT_SUMMARY" DateTime="2019-08-28T09:34:35">
+		<DataPackage Package_Name="ID_FCT_SUMMARY">
+			<DataElement Element_Name="ID_FCT_SUMMARY">
+				<TextEntry Text_Type="Description" Text_ID="Application">ID_QUALITY_DAILY_2019-08-28_09-32-57</TextEntry>
+				<TextEntry Text_Type="Description" Text_ID="Workflow">Quality Assurance</TextEntry>
+				<DataEntry Variable_Name="ID_ErrorCodeSummary">
+					<StringVariable String_Value="1"/>
+				</DataEntry>
+				<DataEntry Variable_Name="ID_CoverageSummary">
+					<StringVariable String_Value="0"/>
+				</DataEntry>
+				<DataEntry Variable_Name="ID_StartTimeSummary">
+					<StringVariable String_Value="2019-08-28 09:34:35"/>
+				</DataEntry>
+				<DataEntry Variable_Name="ID_StopTimeSummary">
+					<StringVariable String_Value="2019-08-28 09:35:06"/>
+				</DataEntry>
+				<DataEntry Variable_Name="ID_SupressXmlResults">
+					<BoolVariable Bool_Value="NO"/>
+				</DataEntry>
+			</DataElement>
+		</DataPackage>
+	</DataGroup>
+</Function>
