@@ -1,0 +1,2010 @@
+<CalcListEntry>
+	<CalcID>1</CalcID>
+	<CalcName>A0 SEIN G</CalcName>
+	<CalcType>3</CalcType>
+	<VersionUID>{0b5bb7b1-51ab-427b-a520-f4630ce42d53}</VersionUID>
+	<PlanComparison>1</PlanComparison>
+	<SsdCalcMode>1</SsdCalcMode>
+	<CalcInUse>0</CalcInUse>
+	<CyberKnifePlan>0</CyberKnifePlan>
+	<EZCalc>0</EZCalc>
+	<Gray>0</Gray>
+	<FirstMachineNameInCalc>Halcyon2</FirstMachineNameInCalc>
+	<CalcSummaryList>
+		<CalcSummary>
+			<MachineName>Halcyon2</MachineName>
+			<EnergyName>6X-FFF</EnergyName>
+			<BrachySourceName></BrachySourceName>
+			<Baseline></Baseline>
+			<Comparison></Comparison>
+			<ID></ID>
+			<Type>PhotonIMRT</Type>
+			<ItemList>
+				<Item>
+					<Name>10A0</Name>
+					<ParentID></ParentID>
+					<DoseActionLevelType>IdNone</DoseActionLevelType>
+					<ComputedValue>283.501434</ComputedValue>
+					<ExpectedValue>280.801514</ExpectedValue>
+					<PercentDiff>0.009615</PercentDiff>
+				</Item>
+				<Item>
+					<Name>20A0</Name>
+					<ParentID></ParentID>
+					<DoseActionLevelType>IdNone</DoseActionLevelType>
+					<ComputedValue>280.357574</ComputedValue>
+					<ExpectedValue>273.359985</ExpectedValue>
+					<PercentDiff>0.025604</PercentDiff>
+				</Item>
+			</ItemList>
+		</CalcSummary>
+		<CalcSummary>
+			<MachineName>Halcyon2</MachineName>
+			<EnergyName>6X-FFF</EnergyName>
+			<BrachySourceName></BrachySourceName>
+			<Baseline></Baseline>
+			<Comparison></Comparison>
+			<ID></ID>
+			<Type>PhotonTotalDoseIMRT</Type>
+			<ItemList>
+				<Item>
+					<Name>Isocentre_1</Name>
+					<ParentID></ParentID>
+					<DoseActionLevelType>IdNone</DoseActionLevelType>
+					<ComputedValue>259.927002</ComputedValue>
+					<ExpectedValue>264.501312</ExpectedValue>
+					<PercentDiff>-0.017294</PercentDiff>
+				</Item>
+			</ItemList>
+		</CalcSummary>
+	</CalcSummaryList>
+	<CalcInUseID>4294967295</CalcInUseID>
+	<CalcDoneByEntry>
+		<CheckEntry>
+			<UserID>12</UserID>
+			<AssignedToUserID>4294967295</AssignedToUserID>
+			<Year>2024</Year>
+			<Month>11</Month>
+			<Day>25</Day>
+			<Hour>16</Hour>
+			<Minute>4</Minute>
+			<Second>49</Second>
+		</CheckEntry>
+	</CalcDoneByEntry>
+	<CalcPhysicsEntry>
+		<CheckEntry>
+			<UserID>4294967295</UserID>
+			<AssignedToUserID>12</AssignedToUserID>
+			<Year>0</Year>
+			<Month>0</Month>
+			<Day>0</Day>
+			<Hour>0</Hour>
+			<Minute>0</Minute>
+			<Second>0</Second>
+		</CheckEntry>
+	</CalcPhysicsEntry>
+	<CalcPhysicianEntry>
+		<CheckEntry>
+			<UserID>4294967295</UserID>
+			<AssignedToUserID>4294967295</AssignedToUserID>
+			<Year>0</Year>
+			<Month>0</Month>
+			<Day>0</Day>
+			<Hour>0</Hour>
+			<Minute>0</Minute>
+			<Second>0</Second>
+		</CheckEntry>
+	</CalcPhysicianEntry>
+	<CalcTherapistEntry>
+		<CheckEntry>
+			<UserID>4294967295</UserID>
+			<AssignedToUserID>4294967295</AssignedToUserID>
+			<Year>0</Year>
+			<Month>0</Month>
+			<Day>0</Day>
+			<Hour>0</Hour>
+			<Minute>0</Minute>
+			<Second>0</Second>
+		</CheckEntry>
+	</CalcTherapistEntry>
+	<CtToDensityTableUid>0b02e2e1-92fd-46b5-8806-b81db704981f</CtToDensityTableUid>
+	<CalcDicomID>
+		<DicomIdentification>
+			<SOPClassUID>1.2.840.10008.5.1.4.1.1.481.5</SOPClassUID>
+			<SOPInstanceUID>1.2.752.243.1.1.20241125150306271.1900.32820</SOPInstanceUID>
+		</DicomIdentification>
+	</CalcDicomID>
+	<CalcDicomReference>
+		<DicomIdentification>
+			<SOPClassUID>1.2.840.10008.5.1.4.1.1.481.3</SOPClassUID>
+			<SOPInstanceUID>1.2.752.243.1.1.20241125150326982.3400.45612</SOPInstanceUID>
+		</DicomIdentification>
+	</CalcDicomReference>
+	<CalcFrameOfReferenceUID>
+		<DicomIdentification>
+			<SOPClassUID>FrameOfReferenceUID</SOPClassUID>
+			<SOPInstanceUID>1.3.12.2.1107.5.1.4.100167.30000024112006595367600000017</SOPInstanceUID>
+		</DicomIdentification>
+	</CalcFrameOfReferenceUID>
+	<PatientPosition>HFS</PatientPosition>
+</CalcListEntry>
+<WriteVersionNumber>7.2</WriteVersionNumber>
+<WriteBuildNumber>2.0</WriteBuildNumber>
+<ImportedPlan>0</ImportedPlan>
+<AngularIncrement>5.000000</AngularIncrement>
+<TreatmentSchedule>
+</TreatmentSchedule>
+<Prescription>
+	<Name>A0 SEIN G</Name>
+	<PrescribedDose>4005.000000</PrescribedDose>
+	<DosePerFraction>267.000000</DosePerFraction>
+	<NumFractions>15.00</NumFractions>
+	<PrescribeToIsodose>0</PrescribeToIsodose>
+	<PrescribeToValue>1.000000</PrescribeToValue>
+	<IncludeScatterInRx>0</IncludeScatterInRx>
+	<ScatterDose>0.000000</ScatterDose>
+	<TotalDose>4005.000000</TotalDose>
+	<DicomFractionGroupId>1</DicomFractionGroupId>
+</Prescription>
+<CalculationPointList>
+	<CalculationPoint>
+		<Name>Isocentre_1</Name>
+		<Color>Rouge</Color>
+		<Prescription>(Utiliser pour toutes des prescriptions)</Prescription>
+		<TotalDose>259.927002</TotalDose>
+		<ExpectedDose>264.501312</ExpectedDose>
+		<PercentDiff>-0.017294</PercentDiff>
+		<NormalizeDose>0</NormalizeDose>
+		<DosePerFraction>-999.900024</DosePerFraction>
+		<UseCoordinates>1</UseCoordinates>
+		<CoordinatesXYZ>9.900000,29.000000,-2.379135</CoordinatesXYZ>
+		<PhotonLiteBeamList>
+			<PhotonLiteBeam>
+				<PhotonBeamId>10A0</PhotonBeamId>
+				<SsdAtCalculationPoint>92.457397</SsdAtCalculationPoint>
+				<DepthOfTreatment>7.542605</DepthOfTreatment>
+				<TissueEquivalentPath>7.542605</TissueEquivalentPath>
+				<HomoEqSqScale>0.665350</HomoEqSqScale>
+				<InhomoEqSqScale>0.521625</InhomoEqSqScale>
+				<InhomoCorrectionValue>1.000000</InhomoCorrectionValue>
+				<OffAxisDistancesXZ>0.000000,0.000000</OffAxisDistancesXZ>
+				<CollimatorScatterFactor>0.995670</CollimatorScatterFactor>
+				<PrimaryTprTimesSp>0.337598</PrimaryTprTimesSp>
+				<ScatterTprTimesSp>0.126255</ScatterTprTimesSp>
+				<PrimaryPddTimesSp>-999.900024</PrimaryPddTimesSp>
+				<ScatterPddTimesSp>-999.900024</ScatterPddTimesSp>
+				<DosePerMU>0.463307</DosePerMU>
+				<RtpDoseAtCalculationPoint>131.348206</RtpDoseAtCalculationPoint>
+				<ComputedDoseAtCalculationPoint>130.097321</ComputedDoseAtCalculationPoint>
+				<ControlPointDoseList>
+					<CpDose num="0">
+						<SSD>-999.900024</SSD>
+						<Depth>-999.900024</Depth>
+						<EqPath>-999.900024</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>0.000000</Dose>
+					</CpDose>
+					<CpDose num="1">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="2">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="3">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="4">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="5">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="6">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="7">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="8">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="9">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="10">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="11">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="12">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="13">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="14">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="15">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="16">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="17">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="18">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="19">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="20">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="21">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="22">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="23">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="24">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="25">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="26">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="27">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="28">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="29">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="30">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="31">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="32">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="33">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="34">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="35">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="36">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="37">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="38">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="39">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="40">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="41">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="42">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="43">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="44">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="45">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="46">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="47">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="48">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="49">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="50">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="51">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="52">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="53">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="54">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="55">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="56">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="57">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="58">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="59">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="60">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="61">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="62">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="63">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="64">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="65">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="66">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="67">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="68">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="69">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="70">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="71">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="72">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="73">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="74">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="75">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="76">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="77">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="78">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="79">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="80">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="81">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="82">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="83">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="84">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="85">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="86">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="87">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="88">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="89">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="90">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="91">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="92">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="93">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="94">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="95">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="96">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="97">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="98">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="99">
+						<SSD>92.457397</SSD>
+						<Depth>7.542605</Depth>
+						<EqPath>7.542605</EqPath>
+						<OAD_X>-0.106066</OAD_X>
+						<OAD_Z>-0.106066</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+				</ControlPointDoseList>
+			</PhotonLiteBeam>
+			<PhotonLiteBeam>
+				<PhotonBeamId>20A0</PhotonBeamId>
+				<SsdAtCalculationPoint>92.943092</SsdAtCalculationPoint>
+				<DepthOfTreatment>7.056909</DepthOfTreatment>
+				<TissueEquivalentPath>7.056909</TissueEquivalentPath>
+				<HomoEqSqScale>0.665676</HomoEqSqScale>
+				<InhomoEqSqScale>0.543109</InhomoEqSqScale>
+				<InhomoCorrectionValue>1.000000</InhomoCorrectionValue>
+				<OffAxisDistancesXZ>0.000000,0.000000</OffAxisDistancesXZ>
+				<CollimatorScatterFactor>0.991868</CollimatorScatterFactor>
+				<PrimaryTprTimesSp>0.347122</PrimaryTprTimesSp>
+				<ScatterTprTimesSp>0.128866</ScatterTprTimesSp>
+				<PrimaryPddTimesSp>-999.900024</PrimaryPddTimesSp>
+				<ScatterPddTimesSp>-999.900024</ScatterPddTimesSp>
+				<DosePerMU>0.474940</DosePerMU>
+				<RtpDoseAtCalculationPoint>133.153107</RtpDoseAtCalculationPoint>
+				<ComputedDoseAtCalculationPoint>129.829666</ComputedDoseAtCalculationPoint>
+				<ControlPointDoseList>
+					<CpDose num="0">
+						<SSD>-999.900024</SSD>
+						<Depth>-999.900024</Depth>
+						<EqPath>-999.900024</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>0.000000</Dose>
+					</CpDose>
+					<CpDose num="1">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="2">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="3">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="4">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="5">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="6">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="7">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="8">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="9">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="10">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="11">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="12">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="13">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="14">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="15">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="16">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="17">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="18">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="19">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="20">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="21">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="22">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="23">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="24">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="25">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="26">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="27">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="28">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="29">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="30">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="31">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="32">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="33">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="34">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="35">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="36">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="37">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="38">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="39">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="40">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="41">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="42">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="43">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="44">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="45">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="46">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="47">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="48">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="49">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="50">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="51">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="52">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="53">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="54">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="55">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="56">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="57">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="58">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="59">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="60">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="61">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="62">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="63">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="64">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="65">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="66">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="67">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="68">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="69">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="70">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="71">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="72">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="73">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="74">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="75">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="76">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="77">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="78">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="79">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="80">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="81">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="82">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="83">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="84">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="85">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="86">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="87">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="88">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="89">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="90">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="91">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="92">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="93">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="94">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="95">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="96">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="97">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="98">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+					<CpDose num="99">
+						<SSD>92.943092</SSD>
+						<Depth>7.056909</Depth>
+						<EqPath>7.056909</EqPath>
+						<OAD_X>0.000000</OAD_X>
+						<OAD_Z>0.350000</OAD_Z>
+						<RtpDoseFx>-999.90002441</RtpDoseFx>
+						<Dose>-999.900024</Dose>
+					</CpDose>
+				</ControlPointDoseList>
+			</PhotonLiteBeam>
+		</PhotonLiteBeamList>
+	</CalculationPoint>
+</CalculationPointList>
+<CalculationNormalization>
+	<NormalizationType>PercentOfRxDose</NormalizationType>
+	<NormalizationPoint></NormalizationPoint>
+	<NormalizationDoseVol></NormalizationDoseVol>
+	<NormalizationFactor>40.049999</NormalizationFactor>
+</CalculationNormalization>
